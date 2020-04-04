@@ -1,11 +1,13 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import PageWithScene from './components/PageWithScene';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      <PageWithScene/>
+      {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Hello world
@@ -18,7 +20,7 @@ function App() {
         >
           Learn React
         </a>
-      </header>
+      </header> */}
     </div>
   );
 }
